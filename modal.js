@@ -23,11 +23,7 @@ function dibujarCarrito() {
               <td><button id="eliminar-${e.modelo}" type="button" class="btn btn-danger"><i class="bi bi-trash-fill"></i></button></td>
               <td>${e.precio}</td>    
           `;
-              /*<td><input id="cantidad-producto-${elemento.producto.id}" type="number" value="${elemento.cantidad}" min="1" max="1000" step="1" style="width: 50px;"/></td>
-              <td>$ ${elemento.producto.precio}</td>
-              <td>$ ${estandarDolaresAmericanos.format(elemento.producto.precio*elemento.cantidad)}</td>
-                            
-          `;*/
+              
 
            elementoAgregado.append(renglonesCar);
 
